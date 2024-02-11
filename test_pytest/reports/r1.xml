@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="7" time="69.700" timestamp="2024-01-14T22:29:33.924962" hostname="DESKTOP-5FPDPI9"><testcase classname="test_orange_hrm.test_cases.test_Dashbord_orange_hrm.Test_c" name="test_dashbord" time="46.851" /><testcase classname="test_orange_hrm.test_cases.test_Dashbord_orange_hrm.Test_c" name="test_username_input" time="0.193" /><testcase classname="test_orange_hrm.test_cases.test_Dashbord_orange_hrm.Test_c" name="test_user_role" time="22.258" /><testcase classname="test_pytest.test_demo1.test_demo" name="test_sample_one" time="0.002"><failure message="AssertionError: a is not equal b&#10;assert 5 == 6">def test_sample_one():
+        a=5
+        b=6
+&gt;       assert a==b,'a is not equal b'
+E       AssertionError: a is not equal b
+E       assert 5 == 6
+
+test_pytest\test_demo1\test_demo.py:4: AssertionError</failure></testcase><testcase classname="test_pytest.test_demo1.test_demo" name="test_sample_two" time="0.002" /><testcase classname="test_pytest.test_demo1.test_demo" name="test_sample_three" time="0.002" /><testcase classname="test_pytest.test_demo1.test_demo" name="test_sample_four" time="0.002"><failure message="AssertionError: a is not equal&#10;assert False&#10; +  where False = &lt;method-wrapper '__eq__' of str object at 0x000001D73BF64570&gt;('sambit')&#10; +    where &lt;method-wrapper '__eq__' of str object at 0x000001D73BF64570&gt; = 'suvam'.__eq__">def test_sample_four():
+        a='suvam'
+        b='sambit'
+&gt;       assert a.__eq__(b),'a is not equal'
+E       AssertionError: a is not equal
+E       assert False
+E        +  where False = &lt;method-wrapper '__eq__' of str object at 0x000001D73BF64570&gt;('sambit')
+E        +    where &lt;method-wrapper '__eq__' of str object at 0x000001D73BF64570&gt; = 'suvam'.__eq__
+
+test_pytest\test_demo1\test_demo.py:18: AssertionError</failure></testcase></testsuite></testsuites>
